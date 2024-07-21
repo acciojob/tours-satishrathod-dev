@@ -1,12 +1,87 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+main {
+  padding: 2rem 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.no-tours {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #49a6e9;
+  margin: 0.5rem auto;
+}
+
+.tour {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.tour img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.tour-info {
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.tour-price {
+  color: #49a6e9;
+  margin-bottom: 0.75rem;
+}
+
+.tour-info p {
+  color: #5d5c5c;
+}
+
+.tour-info button {
+  background: transparent;
+  border: none;
+  color: #49a6e9;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.delete-btn {
+  display: block;
+  width: 100%;
+  border: 1px solid #49a6e9;
+  background: transparent;
+  color: #49a6e9;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  padding: 0.25rem 0;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #49a6e9;
+  color: #fff;
 }
